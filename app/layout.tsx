@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <Modal isOpen title={"Hello"} />
+        <Modal isOpen actionLabel="Submit" title={"Hello"} />
         <Navbar />
         {children}
       </body>
