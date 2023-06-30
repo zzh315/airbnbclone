@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Nunito } from "next/font/google";
+import Modal from "./components/modals/Modal";
 
 import Navbar from "./components/navbar/Navbar";
 
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
+        <Modal isOpen title={"Hello"} />
         <Navbar />
         {children}
       </body>
