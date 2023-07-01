@@ -31,6 +31,8 @@ const Modal = ({
 }: ModalProps) => {
   const [showModal, setShowModal] = useState<boolean | undefined>(false);
 
+  //reason why showModal and useEffect was used instead of zustand registerModal.isOpen state directly
+  // is because the modal is intended to be used for both login and register
   useEffect(() => {
     setShowModal(isOpen);
   }, [isOpen]);
@@ -38,7 +40,8 @@ const Modal = ({
   const handleClose = useCallback(() => {
     if (disabled) return;
     setShowModal(false);
-    // delay for animation
+    // delay for animation ensure when onClose the modal would not
+    // disappear immediately
     setTimeout(() => {
       onClose();
     }, 300);
