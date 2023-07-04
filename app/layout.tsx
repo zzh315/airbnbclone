@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Nunito } from "next/font/google";
-
+import { Toaster } from "react-hot-toast";
 import Navbar from "./components/navbar/Navbar";
 import RegisterModal from "./components/modals/RegisterModal";
 
@@ -19,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
+        <Toaster />
         <RegisterModal />
         <Navbar />
         {children}
