@@ -3,6 +3,7 @@
 import axios from "axios";
 import { AiFillGithub } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
+
 import { useCallback, useState } from "react";
 import {
   FieldValue,
@@ -89,6 +90,23 @@ const RegisterModal = () => {
         icon={FcGoogle}
         onClick={() => {}}
       />
+      <Button
+        outline
+        label="Continue with Github"
+        icon={AiFillGithub}
+        onClick={() => {}}
+      />
+      <div className="text-neutral-500 mt-4 font-light">
+        <div className=" justify-center flex flex-row items-center gap-2">
+          <div>Already have an account?</div>
+          <div
+            onClick={registerModal.onClose}
+            className="text-neutral-800 cursor-pointer hover:underline"
+          >
+            Login
+          </div>
+        </div>
+      </div>
     </div>
   );
 
