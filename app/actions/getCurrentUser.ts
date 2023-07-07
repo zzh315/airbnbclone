@@ -13,6 +13,7 @@ export default async function getCurrentUser() {
 
     if (!session?.user?.email) {
       return null;
+      //error not thrown on purpose to not mess up when no user
     }
 
     const currentUser = await prisma.user.findUnique({
