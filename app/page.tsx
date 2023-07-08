@@ -6,6 +6,7 @@ import ListingCard from "./components/listings/ListingCard";
 import { SafeListing } from "./types";
 import { IListingsParams } from "./actions/getListings";
 
+export const dynamic = "force-dynamic";
 interface HomeProps {
   searchParams: IListingsParams;
 }
