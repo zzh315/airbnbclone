@@ -46,3 +46,8 @@ export async function POST(request: Request) {
 
   return NextResponse.json(listing);
 }
+
+export async function DELETE(request: Request) {
+
+  
+}
