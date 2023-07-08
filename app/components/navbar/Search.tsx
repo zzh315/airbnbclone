@@ -53,7 +53,7 @@ const Search = () => {
           {durationLabel}
         </div>
         <div className="text-sm pl-6 pr-2 text-gray-600 flex flex-row items-center gap-3">
-          <div className="hidden sm:block">{guestCount || "Add Guests"}</div>
+          <div className="hidden sm:block">{guestCount || "Add"} Guest</div>
           <div className="p-2 bg-rose-500 rounded-full text-white">
             <BiSearch size={18} />
           </div>
