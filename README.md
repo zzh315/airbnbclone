@@ -1,34 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/65444002/252250545-4a0cb9f8-eeac-41ba-8629-1060a9a89281.png" />
+</p>
 
-## Getting Started
+<br/>
+<br/>
 
-First, run the development server:
+### Production
+app is hosted by vercel: https://rentclone-weld.vercel.app/
+
+
+# Airbnb Clone
+Airbnb is an online marketplace for short- and long-term homestays and experiences.
+
+ 
+## Key Features
+- Login ⚙️
+  - login with verified signed up user accounts
+  
+- Sign up 👋
+  - Sign up with an email and password to create an account
+  - Sign up and login with Google&Github OAuth
+  
+- List Properties 🏚️
+  - Submit your property location, picture and price per night
+  - Home owners Can Manage Customer Reservations on myResrvations page
+
+- Browse Properties 🏚️
+  - Filter properties by location, avaiablity, category and guest counts.
+  - Save and browse your favorite properties under myFavorites page.
+  - Reserve property for a period or cancel reserved propeties.
+
+
+  
+
+## How To Use
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Clone this repository
+$ git clone https://github.com/zzh315/airbnbclone.git
+
+# Go into the repository
+$ cd airbnbclone
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
 ```
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Credits
+This software uses the following open source packages:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Node.js](https://nodejs.org/)
+- [Next.js](https://nextjs.org/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [ReactJs](https://reactjs.org/)
+- [MongoDbAtlas](https://www.mongodb.com/cloud/atlas)
+- Emojis are taken from [here](https://emojiguide.com/)
+- Project inspired by [AntonioErdeljac](https://github.com/AntonioErdeljac)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## What the app looks like
+### Sign in or Sign up
+![image](https://github.com/zzh315/airbnbclone/assets/65444002/0d89850f-bf24-4673-942b-c713bc635161)
+### Listing a property
+![image](https://github.com/zzh315/airbnbclone/assets/65444002/91bfe13d-50db-4b14-bee1-2a577b8dca97)
+
+### Home page to start browsing
+![image](https://github.com/zzh315/airbnbclone/assets/65444002/4a0cb9f8-eeac-41ba-8629-1060a9a89281)
