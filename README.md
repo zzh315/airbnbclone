@@ -59,7 +59,7 @@ $ npm start
 
 
 ## Credits
-This software uses the following open source packages:
+This app uses the following open source packages:
 
 - [Node.js](https://nodejs.org/)
 - [Next.js](https://nextjs.org/)
@@ -67,7 +67,6 @@ This software uses the following open source packages:
 - [ReactJs](https://reactjs.org/)
 - [MongoDbAtlas](https://www.mongodb.com/cloud/atlas)
 - Emojis are taken from [here](https://emojiguide.com/)
-- Project inspired by [AntonioErdeljac](https://github.com/AntonioErdeljac)
 
 
 
@@ -79,3 +78,5 @@ This software uses the following open source packages:
 
 ### Home page to start browsing
 ![image](https://github.com/zzh315/airbnbclone/assets/65444002/4a0cb9f8-eeac-41ba-8629-1060a9a89281)
+- Project inspired by [AntonioErdeljac](https://github.com/AntonioErdeljac)
+
