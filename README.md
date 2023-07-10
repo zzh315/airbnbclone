@@ -16,6 +16,7 @@ Airbnb is an online marketplace for short- and long-term homestays and experienc
 ## Key Features
 - Login ⚙️
   - login with verified signed up user accounts
+  - Login with Google&Github OAuth
   
 - Sign up 👋
   - Sign up with an email and password to create an account
