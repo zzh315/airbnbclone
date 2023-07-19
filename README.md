@@ -10,9 +10,10 @@ app is hosted by vercel: https://rentclone-weld.vercel.app/
 
 
 # Airbnb Clone
-Airbnb is an online marketplace for short- and long-term homestays and experiences.
+This is a Full Stack Airbnb Clone developed with Next.js13, Tailwind, Prisma, MongoDB, NextAuth, CloudinaryCDN. 
 
- Project designed by [AntonioErdeljac](https://www.youtube.com/@codewithantonio)
+Credit: This is a NextJs tutorial project originally designed by [AntonioErdeljac](https://www.youtube.com/@codewithantonio).
+
  
 ## Key Features
 - Login ⚙️
