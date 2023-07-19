@@ -12,6 +12,7 @@ app is hosted by vercel: https://rentclone-weld.vercel.app/
 # Airbnb Clone
 Airbnb is an online marketplace for short- and long-term homestays and experiences.
 
+- Project inspired by [AntonioErdeljac](https://www.youtube.com/@codewithantonio)
  
 ## Key Features
 - Login ⚙️
@@ -78,5 +79,5 @@ This app uses the following open source packages:
 
 ### Home page to start browsing
 ![image](https://github.com/zzh315/airbnbclone/assets/65444002/4a0cb9f8-eeac-41ba-8629-1060a9a89281)
-- Project inspired by [AntonioErdeljac](https://github.com/AntonioErdeljac)
+
 
